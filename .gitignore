@@ -8,6 +8,3 @@ node_modules
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
-
-# Don't change base_url in prod
-.svelte.config.js
