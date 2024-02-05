@@ -9,7 +9,7 @@ const config = {
 
 	kit: {
 		paths: {
-			//base: '/proxy/5173'
+			base: '/proxy/5173'
 		},
 		adapter: adapter({
 			// default options are shown. On some platforms
