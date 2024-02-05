@@ -1,72 +1,67 @@
 <script lang="ts">
-    let showcourse = false;
-
-    function togglecourse() {
-        showcourse = !showcourse;
-    }
+    import { base } from '$app/paths'
 </script>
 
-<div>
-    <h2>Mike Zeng</h2>
+<div class="border-2 border-green-400 p-4 bg-gray-200">
+    <h2 class="text-xl">Mike Zeng</h2>
     <h4>mzen17.jp@gmail.com</h4>
+</div>
 
-    <h1>Interests</h1>
-    <h2>CS/Math</h2>
-    <ul>
-        <li>AMC 10/12</li>
-        <li>USACO</li>
-        <li>Codeforces</li>
-        <li>Kaggle</li>
+<div class="">
+    <h1 class = "text-2xl mt-4">My Interests</h1>
+
+    These are things that I am interested in, and are used as project tags.
+    <h2 class="text-xl text-gray-500 mt-4">CS</h2>    
+    <ul class = "ml-8 mb-2">
+        <li> - Web Applications [Django, FastAPI, Svelte, React]    </li>
+        <li> - Machine Learning [Pytorch, Transformers, TensorFlow] </li>
+        <li> - Game Development [Unreal Engine, Unity, Godot]       </li>
+        <li> - Algorithms       [Python, C++, Rust]                 </li>
+    </ul>
+    My primary focus is Computer Science, though there are many fields of computer science that 
+    I am interested in. Mainly, I am trying to get production-ready projects and a meaningful
+    success statistic. I also focus on competitive programming, mainly USACO, CodeForces, and LeetCode.
+
+    <h2 class="text-xl text-gray-500 mt-4">Statistics</h2>    
+    <ul class = "ml-8 mb-2">
+        <li> - Statistic Software   [Python, R, SAS]    </li>
+    </ul>
+    Statistics is one of my focuses, and its something I have been studying extensively. 
+    There aren't an enourmous a lot of competitions for it, so I mostly study theory and
+    do Kaggle occasionally.
+
+    <h2 class="text-xl text-gray-500 mt-4">Art</h2>
+    <ul class = "ml-8 mb-2">
+        <li> - 3D Modeling      [Blender, Substance Painter]    </li>
+        <li> - Drawing          [PhotoShop, Clip Studio Paint]  </li>
+        <li> - Video Editing    [DaVinci Resolve]               </li>
     </ul>
 
-    <h2>Misc</h2>
-    <ul>
-        <li>3D (Modeling + Texturing + Sculpting)</li>
-        <li>Drawing (2D + Animation)</li>
-        <li>Japanese</li>
+    I do art in my free time casually whenever I find time for it, and though my art is no where near
+    production quality, I did start a 180-day journey to improve it a lot. Progress is being made
+    however, that I am sure.
+
+    <h2 class="text-xl text-gray-500 mt-4">Misc</h2>
+    <ul class = "ml-8">
+        <li> - Japanese [~N4] </li>
+        <li> - Writing </li>
     </ul>
 
-    <h1>Courses [University of Iowa]</h1>
-    {#if showcourse}
-    <h2>Completed [Fall 2022-Fall 2023]</h2>
-    <ul>
-        <li>ENGR:1300 Introduction to Computer Engineering</li>
-        <li>CS:2210 Discrete Structures</li>
-        <li>CS:2230 Data Structures</li>
-        <li>CS:2630 Computer Organization</li>
-        <li>CS:3330 Algorithms</li>
-        <li>CS:3640 Introduction to Computer Networking</li>
-    </ul>
-    <h2>In Progress [Spring 2024]</h2>
-    <ul>
-        <li>STAT:2010 Statistical Methods and Computing </li>
-        <li>CS:3820 Programming Language Concepts</li>
-        <li>CS:4330 Theory of Computation</li>
-        <li>CS:2820 Introduction to Software Development</li>
-    </ul>
-    {/if}
-    <button on:click={togglecourse}>
-    {#if showcourse}
-    Hide
-    {:else}
-    Show
-    {/if}
-    </button>
-
-
-    <h1>Projects</h1>
+    <h1 class = "text-2xl mt-4">Projects</h1>
     <ul>
         <li>Data Engine | A highly performant data engine written in Rust and Tauri for processing, filtering, or cleaning of mass amounts of data.</li>
         <li>Character AI | An AI for characters, taking a different approach than most by representing humans as a dense list of actions, based off of the statement "actions speak louder than words."</li>
         <li><a href="https://ltw.pages.dev">Light the World</a> | A 3D game with Unreal Engine that relies on the character AI to create an immerse gaming experience. | Expected Completion Date: Q3 2025</li>
-        <li><a href="/">Personal Website </a>| A website built from scratch using SvelteKit with TailwindCSS.</li>
+        <li><a href={base + "/"}>Personal Website </a>| A website built from scratch using SvelteKit with TailwindCSS.</li>
         <li><a href="https://github.com/mzen17/life-manager">Life Manager</a> | A web app to help you manage your life! Powered by ReactJS, FastAPI, PostgreSQL, and Tailwindcss</li>
     </ul>
 
-    <h1>Other links</h1>
+    <h1 class = "text-2xl mt-4">Other links</h1>
     <ul>
         <li><a href="https://github.com/mzen17">Github</a>
-        <li><a href="/portfolios">Portfolios</a></li>
-        <li>WNs (does not work yet)</li>
+        <li><a href="https://linkedin.com/in/mike-zeng-189756257/">Linkedin</a></li>
+        <li><a href={base + "/coursework"}>Coursework</a></li>
+        <li><a href={base + "/portfolios"}>Portfolios</a></li>
+        <li><a href="https://wn.mzen17.xyz">WNs</a></li>
     </ul>
 </div>

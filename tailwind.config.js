@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{svelte,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        body: ['Open Sans', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
