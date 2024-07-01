@@ -43,17 +43,17 @@
 
     <h2 class="text-xl text-gray-500 mt-4">Misc</h2>
     <ul class = "ml-8">
-        <li> - Japanese [~N4] </li>
+        <li> - Japanese [~N4]</li>
         <li> - Writing </li>
+	<li> - MLBB [Mythic Glory]</li>
     </ul>
 
     <h1 class = "text-2xl mt-4">Projects</h1>
     <ul>
-        <li>Data Engine | A highly performant data engine written in Rust and Tauri for processing, filtering, or cleaning of mass amounts of data.</li>
-        <li>Character AI | An AI for characters, taking a different approach than most by representing humans as a dense list of actions, based off of the statement "actions speak louder than words."</li>
-        <li><a class="text-blue-400" href="https://ltw.pages.dev">Light the World</a> | A 3D game with Unreal Engine that relies on the character AI to create an immerse gaming experience. | Expected Completion Date: Q3 2025</li>
+        <li><a class="text-blue-400" href="https://github.com/mzen17/Data-Engine">Data Engine</a> | A highly performant data engine written in Rust and Tauri for processing, filtering, or cleaning of mass amounts of data.</li>
         <li><a class="text-blue-400" href={base + "/"}>Personal Website </a>| A website built from scratch using SvelteKit with TailwindCSS.</li>
-        <li><a class="text-blue-400" href="https://github.com/mzen17/life-manager">Life Manager</a> | A web app to help you manage your life! Powered by ReactJS, FastAPI, PostgreSQL, and Tailwindcss</li>
+        <li><a class="text-blue-400" href="https://github.com/mzen17/Page-Processor">Page Processor</a> | Web-based word processor with a very niche use case of editing single-page natured documents, where page matters. </li>
+
     </ul>
     
     <h1 class="text-2xl mt-4">Site Links</h1>
@@ -64,7 +64,5 @@
     <h1 class = "text-2xl mt-4">Other links</h1>
     <ul>
         <li><a class=" text-blue-400" href="https://github.com/mzen17">Github</a>
-        <li><a class=" text-blue-400" href="https://linkedin.com/in/mike-zeng-189756257/">Linkedin</a></li>
-        <li><a class=" text-blue-400" href="https://wn.mzen17.xyz">WNs</a></li>
     </ul>
 </div>
