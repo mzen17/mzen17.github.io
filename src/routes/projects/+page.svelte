@@ -104,7 +104,7 @@
     <div class="bg-[url(/AXNE.png)] w-96 h-64 flex relative">
         <div class="absolute top-0 left-0 w-full h-full object-cover bg-black bg-opacity-60"></div>
 
-        <p class="my-auto mx-auto text-white z-10">Auxilary Neural Engine (AXNE)</p>
+        <p class="my-auto mx-auto text-white z-10", title="Advancing Towards Human Recreation">ATHR Project</p>
     </div>
 </div>
 <h1 class="text-2xl mb-5">Selected Projects</h1>

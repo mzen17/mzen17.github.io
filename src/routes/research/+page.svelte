@@ -18,7 +18,7 @@ a software for detecting algae blooms via remote sensing with Google Earth Engin
 </div>
 
 <div class="mb-4">
-<h1 class = "text-2xl mb-1">Publifications</h1>    
+<h1 class = "text-2xl mb-1">Publications</h1>    
 To be updated later.
 </div>
 <h1 class="text-2xl">Other</h1>
