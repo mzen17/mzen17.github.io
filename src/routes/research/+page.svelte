@@ -12,7 +12,7 @@
 <h3 class="text-lg text-slate-800 mb-4">Professor Rishab Nithyanand, Jan 2024-May 2024</h3>
 
 <h2 class="text-xl">Researcher, UI Hydroinformatics Laboratory</h2>
-<h3 class="text-lg text-slate-800">Dr Omer Mermer, Oct 2023-Present</h3>
+<h3 class="text-lg text-slate-800">Dr Omer Mermer, Oct 2024-Present</h3>
 I am currently working as a research assistant with the UI Hydroinformatics Laboratory. My current project is 
 a software for detecting algae blooms via remote sensing with Google Earth Engine.
 </div>
