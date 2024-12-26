@@ -14,12 +14,19 @@
 
     <div>
     <h1 class = "text-2xl"> About </h1>
-    I have substantial background, having taken all required undergraduate CS classes at UIowa. I am currently pursuing computer science 
-    further through graduate classes and independent studies, most which concern to fields of networks 
-    and deep learning.
-
+    I am highly interested in systems & networks at higher (MS/PhD) education. I have essentially completed my bachelors in computer science, and am currently pursuing graduate classes, research, and independent studies.
     In addition, I am a researcher at the University of Iowa Hydroinformatics Laboratory, where I contribute to a remote sensing software system.
-    </div>
-
     
 </div>
+<div class="mt-8 mb-2 flex items-center">
+    <a href="/Resume-v24.12J.pdf" class="mr-8 px-6 h-8 rounded-lg items-center justify-center flex text-white border-2 border-white hover:bg-blue-600 transition bg-black text-sm" target="_blank">RESUME</a>
+    <a href="https://www.linkedin.com/in/mike-zeng-189756257/" class="px-6 rounded-lg py-2 text-white border-2 border-white hover:bg-blue-600 transition" target="_blank">
+        <img alt="My linkedin" class = "h-8" src="/li.svg" />
+    </a>
+    <a href="https://github.com/mzen17" class="px-6 rounded-lg py-2 text-white border-2 border-white hover:bg-blue-600 transition" target="_blank">
+        <img alt="My github" class = "h-8" src="/github.svg" />
+
+    </a>
+</div>
+</div>
+<b>Note:</b> The resume is a junior graduate date (2026), which does not reflect my real graduation date (undecided).

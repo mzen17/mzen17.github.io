@@ -15,7 +15,17 @@ competitions such as USACO and AMCs, as well as having online coursework.
 
 <div class="mb-4">
     <h1 class="text-2xl">Organizations</h1>
-    <h2 class="text-xl">West Computing Club</h2>
+    <h2 class="text-xl">Advancing Towards Human Recreation Lab</h2>
+    <h3 class="text-lg text-slate-600 mb-2">Lead Researcher</h3>
+    AI application research in the context of human recreation.
+    Developed a SOTA retrieval structure for LLMs, improving memory recall compared to prev systems by 50%. Working on reinforcement judgement system for personification of LLM output. Developing a model for real-time AI actions. DM for technical blog.
+
+    <h2 class="text-xl mt-8">Homelab</h2>
+    <h3 class="text-lg text-slate-600 mb-2">System Administrator</h3>
+    Designed & maintained an HPC cluster to for server hosting & CPU/GPU compute services for SaaS products & AI inference. Dense virtualization environment running NAS, DNS/DHCP, Postgres, NGINX, Kubernates, remote workstations, OpenVPN, Red Hat Enterprise Linux.
+
+    <h2 class="text-xl mt-8">West Computing Club</h2>
+    <h3 class="text-lg text-slate-600 mb-2">Co-Founder</h3>
     Our club is dedicated to providing learning pathways to motivated students who have a strong interest in computer science.
     We typically teach concepts in computer science, ranging from artificial intelligence to operating system concepts. Additionally, we have two branches, 
     competitive coding (USACO, CodeForces, LeetCode), and Cybersecurity (picoCTF, overthewire, etc).
