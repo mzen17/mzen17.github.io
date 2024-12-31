@@ -6,13 +6,41 @@
             img: "https://raw.githubusercontent.com/mzen17/Page-Processor/refs/heads/main/demos/WriterDEMO.png",
             description: "Web-based word processor for editing single-page natured writing (blogs, WNs, etc)",
             tags: ["fastapi", "js", "fullstack", "2024"]
-        },            
+        },
+        {
+            url: "    https://github.com/mzen17/Shards-of-the-Grid",
+            title: "Shards of the Grid",
+            img: "https://github.com/user-attachments/assets/211a1915-21a7-4e43-bdd3-cdbac9906730",
+            description: "A web-based, grid adventure MORPG built with SaaS principles for UIowa Masters Capstone project.",
+            tags: ["rails", "js", "openai", "2024"]
+        },    
         {
             url: "https://github.com/mzen17/HonyakuBot",
             title: "HonyakuBot",
             img: "https://raw.githubusercontent.com/mzen17/HonyakuBot/refs/heads/main/gallery/answer.jpg",
             description: "A game designed to train human beings for translation like an AI. Large datasets with semantic analysis to judge accuracy.",
             tags: ["python", "similarity", "NLP", "2023"]
+        },        
+        {
+            url: "https://github.com/mzen17/cookiemonster/",
+            title: "Cookie Monster",
+            img: "https://raw.githubusercontent.com/mzen17/cookiemonster/refs/heads/main/CookieGraphData.png",
+            description: "A web scrapper for understanding cookies. This is the codebase for our paper about GDPR policies and its affect on cookie use.",
+            tags: ["research", "networks", "internet", "2023"]
+        },
+        {
+            url: "https://github.com/mzen17/ShooterGame-Unity",
+            title: "Shooter Game",
+            img: "https://raw.githubusercontent.com/mzen17/ShooterGame-Unity/refs/heads/master/ShooterGame.png",
+            description: "A build of a shooter game made in Unity with player turns and movement, a unity feature testing experiement.",
+            tags: ["unity3d", "C#", "art", "2022"]
+        },      
+        {
+            url: "https://github.com/mzen17/ping-traceroute",
+            title: "Ping & Traceroute",
+            img: "https://raw.githubusercontent.com/mzen17/ping-traceroute/refs/heads/main/ping.png",
+            description: "A generic implementation of ping and traceroutes in python using socketes and dpkt packet for my networks class.",
+            tags: ["python", "networks", "routers", "2022"]
         },
         {
             url: "https://github.com/mzen17/ThreeJS-Donut",
@@ -43,7 +71,6 @@
             tags: ["fastapi", "react", "openai", "2023"]
         }
     ];
-
     let portdata = [
         {
             title: "Desert",
@@ -92,20 +119,23 @@
         }
     ]
 </script>
-<h1 class="text-2xl mb-5">Active Projects</h1>
+<h1 class="text-2xl mb-5">Active Project/Activities</h1>
 <div class="mb-10 flex flex-row">
-    <a class="bg-green-400 w-96 h-64 mr-10 flex relative" href="https://ltw.pages.dev">
+    <a class="bg-green-400 w-96 h-64 mr-10 flex relative" href="https://ltw.misekai.net">
         <video class="absolute top-0 left-0 w-full h-full object-cover" autoplay loop muted>
             <source src="https://ltw-cdn.starlitex.com/ltw-1mb.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <p class="my-auto mx-auto text-white z-10">Light the World</p>
     </a>
-    <div class="bg-[url(/AXNE.png)] w-96 h-64 flex relative">
-        <div class="absolute top-0 left-0 w-full h-full object-cover bg-black bg-opacity-60"></div>
-
-        <p class="my-auto mx-auto text-white z-10", title="Advancing Towards Human Recreation">ATHR Project</p>
-    </div>
+    <a class="bg-[url(/AXNE-DEMO.png)] w-96 h-64 flex relative mr-10 bg-cover bg-center" href="https://github.com/mzen17/Energy-Chan">
+        <div class="absolute top-0 left-0 w-full h-full object-cover bg-black bg-opacity-40"></div>
+        <p class="my-auto mx-auto text-white z-10" title="Advancing Towards Human Recreation">ATHR Project</p>
+    </a>
+    <a class="bg-[url(/Datacenter.png)] w-96 h-64 flex relative bg-cover bg-center" href="https://gist.github.com/mzen17/0fda82381c1f09f746ec1d94e4fa76fc">
+        <div class="absolute top-0 left-0 w-full h-full object-cover bg-black bg-opacity-40"></div>
+        <p class="my-auto mx-auto text-white z-10" title="Advancing Towards Human Recreation">Homelab</p>
+    </a>
 </div>
 <h1 class="text-2xl mb-5">Selected Projects</h1>
 

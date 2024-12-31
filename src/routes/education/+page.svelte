@@ -19,10 +19,12 @@ competitions such as USACO and AMCs, as well as having online coursework.
     <h3 class="text-lg text-slate-600 mb-2">Lead Researcher</h3>
     AI application research in the context of human recreation.
     Developed a SOTA retrieval structure for LLMs, improving memory recall compared to prev systems by 50%. Working on reinforcement judgement system for personification of LLM output. Developing a model for real-time AI actions. DM for technical blog.
-
+    See projects tab.
+ 
     <h2 class="text-xl mt-8">Homelab</h2>
     <h3 class="text-lg text-slate-600 mb-2">System Administrator</h3>
     Designed & maintained an HPC cluster to for server hosting & CPU/GPU compute services for SaaS products & AI inference. Dense virtualization environment running NAS, DNS/DHCP, Postgres, NGINX, Kubernates, remote workstations, OpenVPN, Red Hat Enterprise Linux.
+    See projects tab.
 
     <h2 class="text-xl mt-8">West Computing Club</h2>
     <h3 class="text-lg text-slate-600 mb-2">Co-Founder</h3>
