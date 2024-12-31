@@ -8,7 +8,7 @@
             tags: ["fastapi", "js", "fullstack", "2024"]
         },
         {
-            url: "    https://github.com/mzen17/Shards-of-the-Grid",
+            url: "https://github.com/mzen17/Shards-of-the-Grid",
             title: "Shards of the Grid",
             img: "https://github.com/user-attachments/assets/211a1915-21a7-4e43-bdd3-cdbac9906730",
             description: "A web-based, grid adventure MORPG built with SaaS principles for UIowa Masters Capstone project.",
