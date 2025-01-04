@@ -23,10 +23,11 @@
     <a href="https://www.linkedin.com/in/mike-zeng-189756257/" class="px-6 rounded-lg py-2 text-white border-2 border-white hover:bg-blue-600 transition" target="_blank">
         <img alt="My linkedin" class = "h-8" src="/li.svg" />
     </a>
-    <a href="https://github.com/mzen17" class="px-6 rounded-lg py-2 text-white border-2 border-white hover:bg-blue-600 transition" target="_blank">
+    <a href="https://github.com/mzen17" class="px-6 mr-8 rounded-lg py-2 text-white border-2 border-white hover:bg-blue-600 transition" target="_blank">
         <img alt="My github" class = "h-8" src="/github.svg" />
-
     </a>
+    <a href="https://blog.mzen.dev" class=" px-6 h-8 rounded-lg items-center justify-center flex text-white border-2 border-white hover:bg-blue-600 transition bg-black text-sm" target="_blank">BLOG</a>
+
 </div>
 </div>
 <b>Note:</b> The resume is a junior graduate date (2026), which does not reflect my real graduation date (undecided).

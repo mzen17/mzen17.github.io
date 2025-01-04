@@ -1,10 +1,10 @@
 <script lang="ts">
     let data = [
         {
-            url: "https://github.com/mzen17/Page-Processor",
-            title: "Page Processor",
-            img: "https://raw.githubusercontent.com/mzen17/Page-Processor/refs/heads/main/demos/WriterDEMO.png",
-            description: "Web-based word processor for editing single-page natured writing (blogs, WNs, etc)",
+            url: "https://github.com/mzen17/StarCMS",
+            title: "StarCMS",
+            img: "https://raw.githubusercontent.com/mzen17/Page-Processor/refs/heads/main/demos/reader.png",
+            description: "A powerful, easy, extensible selfhosted content management system. Currently being used for blog site.",
             tags: ["fastapi", "js", "fullstack", "2024"]
         },
         {
