@@ -30,4 +30,3 @@
 
 </div>
 </div>
-<b>Note:</b> The resume is a junior graduate date (2026), which does not reflect my real graduation date (undecided).
