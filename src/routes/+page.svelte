@@ -5,20 +5,12 @@
 </script>
 
 <div class="">
-    <div class = "mb-4">
-    <h1 class = "text-2xl">Hello!</h1>
-    I am Mike Zeng, a senior at Iowa City West High and dual-enrolled at University of Iowa. I have 
-    a strong interest in network systems and artificial intelligence, particularly their applications in context
-    of society. In the meantime, I enjoy doing art, particularly 3D art with Blender.
+    <div class = "mb-0">
+    <h1 class = "text-xl">Hello!</h1>
+    I am Mike Zeng, a computer science student at University of Iowa and a privacy researcher at the SPARTA Lab. I have a strong interest in safety/ethics research in privacy and artificial intelligence. I am also interested in studying recreation of neuro systems, information retrival, autonomous agents, and reinforcement learning.
     </div>
 
-    <div>
-    <h1 class = "text-2xl"> About </h1>
-    I am highly interested in systems & networks at higher (MS/PhD) education. I have essentially completed my bachelors in computer science, and am currently pursuing graduate classes, research, and independent studies.
-    In addition, I am a researcher at the University of Iowa Hydroinformatics Laboratory, where I contribute to a remote sensing software system.
-    
-</div>
-<div class="mt-8 mb-2 flex items-center">
+<div class="mt-2 mb-2 flex items-center">
     <a href="/Resume-v24.12J.pdf" class="mr-8 px-6 h-8 rounded-lg items-center justify-center flex text-white border-2 border-white hover:bg-blue-600 transition bg-black text-sm" target="_blank">RESUME</a>
     <a href="https://www.linkedin.com/in/mike-zeng-189756257/" class="px-6 rounded-lg py-2 text-white border-2 border-white hover:bg-blue-600 transition" target="_blank">
         <img alt="My linkedin" class = "h-8" src="/li.svg" />
