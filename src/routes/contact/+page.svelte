@@ -1,1 +1,0 @@
-Send an email to [mzen17.jp@gmail.com].
