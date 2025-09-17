@@ -79,10 +79,7 @@ window.addEventListener('mousemove', (event) => {
             <div id="mobile-menu" class="md:hidden hidden">
                 <div class="px-2 pt-2 pb-3 space-y-1 bg-purple-700 rounded-md mt-2">
                     <a href="/" class="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-purple-600">Home</a>
-                    <a href="/education" class="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-purple-600">Education</a>
-                    <a href="/research" class="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-purple-600">Research</a>
                     <a href="/projects" class="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-purple-600">Projects</a>
-                    <a href="/contact" class="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-purple-600">Contact</a>
                 </div>
             </div>
         </div>
