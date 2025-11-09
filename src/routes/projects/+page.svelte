@@ -162,7 +162,7 @@
         </a>
 
         <a class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300" href="https://github.com/mzen17/OTL-Crawler">
-            <div class="aspect-video relative bg-[url(/OTL.png)] bg-cover bg-center">
+            <div class="aspect-video relative bg-[url(https://gibberish.starlitex.com/otld.png)] bg-cover bg-center">
         
                 <div class="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-20 transition-all duration-300"></div>
                 <div class="absolute inset-0 flex items-center justify-center">
