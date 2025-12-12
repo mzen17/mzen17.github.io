@@ -161,12 +161,12 @@
             </div>
         </a>
 
-        <a class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300" href="https://github.com/mzen17/OTL-Crawler">
-            <div class="aspect-video relative bg-[url(https://gibberish.starlitex.com/otld.png)] bg-cover bg-center">
+        <a class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300" href="https://github.com/mzen17/ESN-Personal-Analysis">
+            <div class="aspect-video relative bg-[url(https://raw.githubusercontent.com/mzen17/ESN-Personal-Analysis/refs/heads/main/report/images/interface.png)] bg-cover bg-center">
         
                 <div class="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-20 transition-all duration-300"></div>
                 <div class="absolute inset-0 flex items-center justify-center">
-                    <h3 class="text-white text-xl font-semibold">Webtracking Leaderboard</h3>
+                    <h3 class="text-white text-xl font-semibold">Superblob</h3>
                 </div>
             </div>
         </a>

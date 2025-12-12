@@ -65,6 +65,8 @@ window.addEventListener('mousemove', (event) => {
                     <nav class="hidden md:flex space-x-1">
                         <a href="/" class="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-purple-700 transition-colors duration-200">Home</a>
                         <a href="/projects" class="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-purple-700 transition-colors duration-200">Projects</a>
+                        <a href="/talks" class="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-purple-700 transition-colors duration-200">Talks</a>
+
                     </nav>
                 </div>
                 <!-- Mobile menu button -->
