@@ -1,99 +1,62 @@
-<script>
+<script lang="ts">
     import "../app.css";
-    import * as THREE from 'three';
-    import { onMount } from "svelte";
-        function toggleMobileMenu() {
-            const menu = document.getElementById('mobile-menu');
-            menu.classList.toggle('hidden');
-        }
+    import { page } from '$app/stores';
 
-    /*onMount(() => {
-        const scene = new THREE.Scene();
-        const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+    const links = [
+        { href: '/', label: 'Home' },
+        { href: '/projects', label: 'Projects' },
+        { href: '/talks', label: 'Talks' },
+        { href: '/content', label: 'Content' }
+    ];
 
-        const renderer = new THREE.WebGLRenderer();
-        renderer.setSize( window.innerWidth, window.innerHeight );
-        renderer.setAnimationLoop( animate );
-        document.body.appendChild( renderer.domElement );
-
-        const geometry = new THREE.BoxGeometry( 1, 1, 1 );
-        const material = new THREE.MeshBasicMaterial( { color: 0xffffff } );
-        const cube = new THREE.Mesh( geometry, material );
-        scene.add( cube );
-
-        camera.position.z = 5;
-
-        // Raycaster and mouse
-const raycaster = new THREE.Raycaster();
-const mouse = new THREE.Vector2();
-
-// Add mousemove event listener
-window.addEventListener('mousemove', (event) => {
-    // Convert mouse position to normalized device coordinates
-    mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-    mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
-});
-
-
-
-    function animate() {
-        raycaster.setFromCamera(mouse, camera);
-        const intersects = raycaster.intersectObject(cube);
-        if (intersects.length > 0) {
-        // If the mouse is hovering, change color
-        cube.material.color.set(0xff0000);
-    } else {
-        // Reset color
-        cube.material.color.set(0x00ff00);
-    }
-        cube.rotation.x += 0.01;
-        cube.rotation.y += 0.01;
-
-        renderer.render( scene, camera );
-
-    }
-    })*/
+    let menuOpen = false;
+    $: $page.url.pathname, (menuOpen = false);
 </script>
 
-    <div class="navbar bg-gradient-to-r from-purple-600 to-purple-800 w-full shadow-lg">
-        <div class="container mx-auto px-4">
-            <div class="flex items-center justify-between h-16">
-                <!-- Logo/Name and main nav items -->
-                <div class="flex items-center space-x-8">
-                    <h2 class="text-2xl font-bold text-white">Mike</h2>
-                    <!-- Desktop navigation -->
-                    <nav class="hidden md:flex space-x-1">
-                        <a href="/" class="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-purple-700 transition-colors duration-200">Home</a>
-                        <a href="/projects" class="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-purple-700 transition-colors duration-200">Projects</a>
-                        <a href="/talks" class="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-purple-700 transition-colors duration-200">Talks</a>
+<div class="min-h-screen flex flex-col bg-white dark:bg-slate-950 text-slate-700 dark:text-slate-300 font-body antialiased">
+    <header class="border-b border-slate-200 dark:border-slate-800 bg-white/90 dark:bg-slate-950/90 backdrop-blur sticky top-0 z-10">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="/" class="text-lg font-semibold tracking-tight text-slate-900 dark:text-slate-100">Mike Zeng</a>
 
-                    </nav>
-                </div>
-                <!-- Mobile menu button -->
-                <button class="md:hidden text-white hover:bg-purple-700 p-2 rounded-md" onclick="toggleMobileMenu()">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
-                </button>
-            </div>
-            
-            <!-- Mobile menu -->
-            <div id="mobile-menu" class="md:hidden hidden">
-                <div class="px-2 pt-2 pb-3 space-y-1 bg-purple-700 rounded-md mt-2">
-                    <a href="/" class="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-purple-600">Home</a>
-                    <a href="/projects" class="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-purple-600">Projects</a>
-                </div>
-            </div>
+            <nav class="hidden md:flex items-center gap-8 text-sm">
+                {#each links as link}
+                    <a
+                        href={link.href}
+                        class={$page.url.pathname === link.href
+                            ? 'text-slate-900 dark:text-slate-100 font-medium'
+                            : 'text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 transition-colors'}
+                    >{link.label}</a>
+                {/each}
+            </nav>
+
+            <button class="md:hidden p-2 -mr-2 text-slate-600 dark:text-slate-400" aria-label="Toggle menu" aria-expanded={menuOpen} on:click={() => (menuOpen = !menuOpen)}>
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
         </div>
-    </div>
 
+        {#if menuOpen}
+            <nav class="md:hidden border-t border-slate-200 dark:border-slate-800 px-6 py-2">
+                {#each links as link}
+                    <a href={link.href} class="block py-2 {$page.url.pathname === link.href ? 'text-slate-900 dark:text-slate-100 font-medium' : 'text-slate-600 dark:text-slate-400'}">{link.label}</a>
+                {/each}
+            </nav>
+        {/if}
+    </header>
 
-<div class = "flex flex-row w-full">
-   
-
-    <div class="py-4 px-16 items-center justify-center w-full">
+    <main class="flex-1 w-full max-w-5xl mx-auto px-6 py-12 md:py-16">
         <slot />
-        </div>
-</div>
+    </main>
 
-<div class="w-full bg-gradient-to-r from-purple-600 to-purple-800 h-8" />
+    <footer class="border-t border-slate-200 dark:border-slate-800">
+        <div class="max-w-5xl mx-auto px-6 py-6 text-sm text-slate-500 dark:text-slate-400 flex flex-col sm:flex-row gap-2 justify-between">
+            <span>&copy; {new Date().getFullYear()} Mike Zeng</span>
+            <div class="flex gap-6">
+                <a href="https://github.com/mzen17" target="_blank" rel="noopener" class="hover:text-slate-900 dark:hover:text-slate-100">GitHub</a>
+                <a href="https://www.linkedin.com/in/mike-zeng-189756257/" target="_blank" rel="noopener" class="hover:text-slate-900 dark:hover:text-slate-100">LinkedIn</a>
+                <a href="https://wcms.starlitex.com/bucket/mzen-blog" target="_blank" rel="noopener" class="hover:text-slate-900 dark:hover:text-slate-100">Blog</a>
+            </div>
+        </div>
+    </footer>
+</div>
