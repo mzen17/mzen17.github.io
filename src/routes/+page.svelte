@@ -15,6 +15,12 @@
             points: ['Assistant instructor for the 2025 Coding Camp']
         },
         {
+            org: 'Tutor Iowa',
+            url: 'https://tutor.uiowa.edu/',
+            date: 'January 2024 – May 2024',
+            points: ['Undergraduate Tutor for Algorithms (CS:3330)']
+        },
+        {
             org: 'West Computing Club',
             url: 'https://west-computing-club.github.io/',
             date: 'September 2023 – June 2025',
@@ -38,9 +44,9 @@
         <p class="mt-2 text-lg text-slate-500 dark:text-slate-400">Researcher · CS + Math @ University of Iowa</p>
         <p class="mt-6 leading-relaxed max-w-2xl">
             I am a second year computer science student at the University of Iowa, interested in building
-            and understanding safe technology. I currently do research at the SPARTA Lab and the Biocomputing
-            Lab at the University of Iowa. Previously, I was tutoring Algorithms (CS:3330) and was an NSF RTG fellow for
-            the math department.
+            and understanding safe technology. I currently do research at the <a href="https://sparta.cs.uiowa.edu/" target="_blank" rel="noopener" class="text-blue-600 dark:text-blue-400 hover:underline">SPARTA Lab</a> and the <a href="https://tintin.cs.uiowa.edu" target="_blank" rel="noopener" class="text-blue-600 dark:text-blue-400 hover:underline">Biocomputing
+            Lab</a> at the University of Iowa. Previously, I was working at the <a href="https://hydroinformatics.tulane.edu" target="_blank" rel="noopener" class="text-blue-600 dark:text-blue-400 hover:underline">Hydroinformatics Lab</a>
+            and was an NSF RTG fellow for the math department.
         </p>
 
         <div class="mt-8 flex flex-wrap gap-3">
